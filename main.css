@@ -1,0 +1,156 @@
+body { 
+   Background-color : Black; 
+ } 
+.main { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 14px; 
+   Color : White 
+ } 
+.quote { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 14px; 
+   Font-style : Italic; 
+   Color : White 
+ }
+ .big { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 18px; 
+   Color : White;
+   margin-left: 80px;
+   margin-bottom : 20px;
+   margin-top: 50px  
+ }
+ .caption { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 10px; 
+   Color : White;
+   margin-left: 80px;
+   margin-bottom : 20px
+ }  
+ .list1 { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 14px; 
+   Color : White;
+   margin-left: 80px 
+ }
+ .space {
+   margin-top: 35px;
+ }
+ .valign {
+   Text-align : Center;
+ 	
+ } 
+ 
+ .btn-group button {
+  background-color: Goldenrod; /* Gold background */
+  border: 1px solid gold; /* Green border */
+  color: white; /* White text */
+  Padding : 8px 8px;
+  Padding-top : 4px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  Font-family : Verdana,Arial,Sans-serif; 
+  Font-size : 14px;
+  Font-weight : Bold;
+  Text-align : Center 
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #FF9900;
+}
+ 
+ p {
+   margin-bottom : 30px;
+   margin-right: 80px;
+   margin-left: 80px
+ }
+
+H4 { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 12px; 
+   Font-weight : Bold; 
+   Color : White
+ }
+ 
+H3 { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 14px; 
+   Font-weight : Bold; 
+   Color : White;
+   margin-left: 80px;
+   margin-bottom : 20px;
+   margin-top: 50px 
+ }
+  
+H2 { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 16px; 
+   Font-weight : Bold; 
+   Color : White;
+   margin-left: 80px;
+   margin-bottom: 20px;
+   margin-top: 50px 
+ }
+  
+H1 { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 18px; 
+   Font-weight : Bold; 
+   Color : White;
+   margin-top: 50px 
+ }
+ 
+ .valighn { 
+   Width : 50.0%;   
+   margin-left: 80px;
+   margin-bottom: 20px
+ }
+ .valighn2 { 
+   Width : 50.0%;   
+ }
+  
+/* unvisited link */
+a:link {
+  color: #FFBF00;
+}
+
+/* visited link */
+a:visited {
+  color: #DBA901;
+}
+
+/* mouse over link */
+a:hover {
+  color: #886A08;
+}
+
+/* selected link */
+a:active {
+  color: #886A08;
+} 
+ 
+ ul.b {
+  list-style-type: square;
+}
+ 
+ footer { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 10px; 
+   Font-weight : Bold;
+   Font-style : Italic; 
+   Color : White;
+   margin-top: 50px 
+ }
+  

@@ -1,0 +1,102 @@
+body { 
+   Background-color : Black; 
+ } 
+/* Below line is write to use Google font online */
+/*@import "http://fonts.googleapis.com/css?family=Ubuntu"; */
+div#main{
+width:830px;
+height:650px;
+margin:0 auto;
+Font-family : Verdana,Arial,Sans-serif;
+Color : White 
+}
+div#form_sample{
+text-align:center;
+border:1px solid #DBA901;
+width:300px;
+padding:0 50px 15px;
+margin-top:20px;
+box-shadow:0 0 15px;
+border-radius:6px;
+float:left
+}
+#main h1{
+margin-top:40px
+}
+hr{
+margin-top:-5px
+}
+label{
+float:left;
+font-size:16px
+}
+input[type="text"]{
+width:100%;
+margin-top:10px;
+height:35px;
+margin-bottom:25px;
+padding:10px;
+border:3px solid #DBA901
+}
+textarea{
+width:100%;
+border:3px solid #DBA901;
+padding:10px;
+margin-bottom:25px;
+margin-top:10px;
+height:100px;
+resize:none
+}
+input[type="submit"]{
+width:100%;
+padding:10px 45px;
+background-color: Goldenrod;
+border:none;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+font-family: Verdana,Arial,Sans-serif;
+Color : #ffffff 
+}
+.btn-group button {
+  background-color: Goldenrod; /* Gold background */
+  border: 1px solid gold; /* Green border */
+  color: white; /* White text */
+  Padding : 8px 8px;
+  Padding-top : 4px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  Font-family : Verdana,Arial,Sans-serif; 
+  Font-size : 14px;
+  Font-weight : Bold;
+  Text-align : Center 
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table
+}
+.main { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 14px; 
+   Color : White 
+ } 
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #FF9900;
+}
+/* -------------------------------------
+CSS for Sidebar (optional)
+---------------------------------------- */
+div#fugo{
+float:right
+}
+copy
+
