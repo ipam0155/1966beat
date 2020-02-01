@@ -1,0 +1,188 @@
+body { 
+   Background-color : Black; 
+ }
+ #example1 {
+  Color : 000000;
+  background-color: Goldenrod;
+  border: 2px solid #FFBF00;
+  padding: 10px;
+  Width : 25.0%;
+  box-shadow: 1px 2px 5px 2px #383838;
+  margin-left: 80px
+}
+.main { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 14px; 
+   Color : White 
+ }
+ .big_m { 
+   font: 22px "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+   font-weight: bold;
+   margin-left: 60px;
+   margin-bottom : 5px;
+   margin-top: 10px  
+ }
+ .valighn { 
+   Width : 50.0%;   
+   margin-left: 80px;
+   Text-align : Center;
+   margin-bottom: 20px
+ }  
+ .for2 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	margin-left: 30px
+	Color : #ffffff;
+	font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.for2 .field-divided{
+	width: 49%;
+}
+.for2 .field-long{
+	width: 100%;
+}
+.for2 .field-select{
+	width: 100%;
+}
+.for2 .field-textarea{
+	height: 100px;
+}
+.for2 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.for2 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.for2 input[type=text], 
+.for2 input[type=date],
+.for2 input[type=datetime],
+.for2 input[type=number],
+.for2 input[type=search],
+.for2 input[type=time],
+.for2 input[type=url],
+.for2 input[type=email], 
+textarea,
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #000000;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.for2 input[type=text]:focus, 
+.for2 input[type=date]:focus,
+.for2 input[type=datetime]:focus,
+.for2 input[type=number]:focus,
+.for2 input[type=search]:focus,
+.for2 input[type=time]:focus,
+.for2 input[type=url]:focus,
+.for2 input[type=email]:focus,
+.for2 textarea:focus, 
+.for2 select:focus{
+	-moz-box-shadow: 0 0 8px #FF9900;
+	-webkit-box-shadow: 0 0 8px #FF9900;
+	box-shadow: 0 0 8px #FF9900;
+	border: 1px solid #FF9900;
+	cursor: pointer;
+}
+.for2 .required{
+	color:red;
+}
+/* Basic Button */
+.but {
+  display: inline-block;
+  background-color: #996515;
+  color: #ffffff;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 14px;
+  border: 1px solid #FFBF00;
+}
+.but:hover {
+  background-color: #FF9900; /* Orange */
+  color: #000000;
+  cursor: pointer;
+}
+.btn-group button {
+  background-color: Goldenrod; /* Gold background */
+  border: 1px solid gold; /* Green border */
+  color: white; /* White text */
+  Padding : 8px 8px;
+  Padding-top : 4px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  Font-family : Verdana,Arial,Sans-serif; 
+  Font-size : 14px;
+  Font-weight : Bold;
+  Text-align : Center 
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #FF9900;
+}
+p {
+   margin-bottom : 30px;
+   margin-right: 80px;
+   margin-left: 80px
+ }
+H4 { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 12px; 
+   Font-weight : Bold; 
+   Color : White
+ }
+ 
+H3 { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 14px; 
+   Font-weight : Bold; 
+   Color : White;
+   margin-left: 80px;
+   margin-bottom : 20px;
+   margin-top: 50px 
+ }
+  
+H2 { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 16px; 
+   Font-weight : Bold; 
+   Color : White;
+   margin-left: 80px;
+   margin-bottom: 20px;
+   margin-top: 50px 
+ }
+  
+H1 { 
+   Font-family : Verdana,Arial,Sans-serif; 
+   Font-size : 18px; 
+   Font-weight : Bold; 
+   Color : White;
+   margin-top: 50px 
+ } 

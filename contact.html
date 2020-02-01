@@ -9,7 +9,7 @@
 
   <title>Contact Us</title>
   
-  <link rel="stylesheet" type="text/css" href="form.css"/>
+  <link rel="stylesheet" type="text/css" href="for2.css"/> 
   
   <meta name="description" content="" />
   <meta name="generator" content="Studio 3 http://aptana.com/" />
@@ -32,17 +32,34 @@
 </div>
 </div>
 
-<div id="main">
+<div>
 <h3>Contact Us</h3>
 
 <hr class="valighn"/>
 
 <p class="main">Please leave us your comments or suggestions below:</p>
+</div>
 
-<div id="form_sample"></div> <!-- Include JS file here -->
-
-<script src="form.js"></script>
-
+<div id="example1">
+	
+	<div class="big_m">Send us an Email</div> 
+  
+  <form action="https://formspree.io/xeqgogpr" method="POST">
+  	<ul class="for2">
+  	<li><label>Name: <span class="required">*</span></label>
+  	<input type="text" class="field-long" name="field1" /></li>
+  	
+    <li><label>Email: <span class="required">*</span></label>
+    <input type="email" class="field-long" name="field2" /></li>
+    
+    <li><label>Message: <span class="required">*</span></label>
+    <textarea name="field3" id="field3" class="field-long field-textarea"></textarea></li>
+  
+    <li>
+    <button type="submit" class="but" />Send</button>
+    </li>
+  </ul>
+</form>
 </div>
 </body>
 </html>
